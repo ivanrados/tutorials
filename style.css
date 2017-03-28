@@ -1,0 +1,807 @@
+/*navigation*/
+.navbar-default{
+	background-color: #ffffff;
+	border: none;
+	border-radius: 0px;
+}
+
+.logo{
+	width: 140px;
+	height: 88px;
+}
+
+.navbar-brand{
+	height: 70px;
+	padding: 0 25px;
+}
+.navbar-nav{
+
+}
+
+.navbar-nav li a{
+	height: 90px;
+	line-height: 88px;
+	padding: 0 25px;
+	font-size: 1.1em;
+	font-family: Abel;
+padding-left: 60px;
+}
+
+.navbar-nav li .active{
+	background-color: #000000;
+}
+
+.active_icon{
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+.restaurant_icon{
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+	opacity: 0.5;
+}
+
+ li a:hover .restaurant_icon{
+	opacity: 1;
+}
+
+/*navigation*/
+
+/*Cover picture and text*/
+header{
+	height: 650px;
+	text-align: center;
+	background-image: url('pictures/hotel.jpg');
+	background-size: cover;
+}
+
+h2{
+	margin-top: 300px;
+	color: #ffffff;
+	font-family: Abel;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+h3{
+	margin-top: 20px;
+	color: #ffffff;
+	font-family: Abel;
+
+}
+
+.col-centered{
+	float: none;
+	margin: 0px auto;
+	top: 10px;
+	border-bottom: 3px solid #ffffff;
+}
+
+/*Cover picture and text*/
+/*Form*/
+
+.inputs{
+	padding-top: 80px;
+	padding-bottom: 80px;
+} 
+
+.form-control{
+	border: 1px solid gray;
+	border-radius: 2px;
+	font-family: Abel;
+}
+
+.form-control:focus{ 
+  border-color: rgba(125, 96, 61, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(125, 96, 6, 0.6);
+  outline: 0 none;
+}
+
+label{
+	font-family: Abel;
+	font-size: 1.2em;
+}
+
+.btn-primary{
+	width: 100px;
+	background-color: #7d603d;
+	border: 2px solid #7d603d;
+	font-family: Abel;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 26px;
+	transition: background 0.5s ease-in-out;
+	border-radius: 15px;
+}
+
+.btn-primary:hover{
+	background-color: #ffffff;
+	color: #7d603d;
+	border: 2px solid #7d603d;
+	transition: background 0.5s ease-in-out;
+}
+
+/*Form*/
+
+/*Section about accomodations and why elite*/
+.why_elite{
+	color: #333333;
+	font-weight: bold;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+.border_one{
+	display: block;
+    height: 1px;
+    width: 20%;
+    border: 0;
+    border-top: 3px solid #7d603d;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+.border_two{
+	display: block;
+    height: 1px;
+    width: 10%;
+    border: 0;
+    border-top: 3px solid #7d603d;
+    margin: -30px 0px 34px 0px;
+}
+
+
+.list_one{
+	list-style-type: none;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #7e7e7e;
+	font-size: 1.2em;
+}
+
+.list_one li{
+	margin-bottom: 10px;
+}
+
+.done{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: -20px;
+}
+
+.list_two{
+	list-style-type: none;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #7e7e7e;
+	font-size: 1.2em;
+	margin-top: 80px;
+}
+
+.list_two li{
+	margin-bottom: 10px;
+}
+
+.accomodations{
+	margin-left: -2px;
+}
+
+.restaurant{
+	margin-left: -2px;
+}
+
+p{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 1.2em;
+	color: #7e7e7e;
+}
+
+.first_paragraph{
+	margin-top: -15px;
+}
+
+.btn-margin{
+	margin-top: 20px;
+}
+.row_one{
+	padding-bottom: 80px;
+}
+
+.container_space{
+	margin-bottom: 100px;
+}
+.slider-container{
+	margin-top: 40px;
+}
+/*Section about accomodations and why elite*/
+
+/*Section with picture and h3 and paragraph */
+
+.image{
+	height: 400px;
+	background-color: rgba(0, 0, 0, 1);
+	background-image: url('pictures/london.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Section with picture and h3 and paragraph */
+
+
+.center_it{
+	margin-top: 80px;
+}
+
+.magic_location{
+	color: #ffffff;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 2em;
+}
+
+.border_three{
+	display: block;
+    height: 1px;
+    width: 10%;
+    border: 0;
+    border-top: 3px solid #ffffff;
+    margin: 20px 0px 10px 0px;
+}
+
+.second_paragraph{
+	padding: 20px 250px 50px 250px;
+	color: #ffffff;
+}
+
+.btn-primary-explore{
+	width: 150px;
+	background-color: rgba(255,0,0, 0);
+	border: 2px solid #ffffff;
+	font-family: Abel;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: -30px;
+	transition: background 0.5s ease-in-out;
+	border-radius: 15px;
+}
+
+.btn-primary-explore:hover{
+	background-color: #ffffff;
+	color: #7d603d;
+	border: 2px solid #ffffff;
+	transition: background 0.5s ease-in-out;
+}
+
+
+/*PROMOTIONS*/
+.promotion_frame{
+	padding-top: 40px;
+}
+
+.promo_heading{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #333333;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.border_promo{
+	display: block;
+    height: 1px;
+    width: 10%;
+    border: 0;
+    border-top: 3px solid #7d603d;
+    margin: 0px 0px 34px 0px;
+}
+
+.frame{
+	margin-left: 20px;
+	padding-bottom: 20px;
+	border: 1px solid lightgray;
+	background-color: #fafafa;
+}
+
+.frame_two{
+	margin-left: 100px;
+	padding-bottom: 20px;
+	border: 1px solid lightgray;
+	background-color: #fafafa;
+}
+
+.airplane{
+	width: 100%;
+	height: 100%;
+}
+
+.value{
+	width: 100px;
+	height: 100px;
+	background-color: #7d603d;
+	border-radius: 55px;
+	border: 4px solid #ffffff;
+	float: right;
+	margin-top: -50px;
+	transition: all .2s ease-in-out; 
+}
+
+.value:hover { 
+	transform: scale(1.1); 
+}
+
+.pounds{
+	font-family: Abel;
+	font-size: 2.5em;
+	margin-left: 5px;
+}
+
+.only{
+	color: #ffffff;
+	font-family: Abel;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+
+.airport_heading{
+	color: #333333;
+	font-weight: bold;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: -10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.contact_margin{
+	padding-top: 40px;
+}
+
+.container_color{
+	background-color: #fafafa;
+	margin-top: 100px;
+	border-top: 1px solid lightgray;
+}
+
+.contact{
+	color: #7d603d;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.fa-facebook-square{
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.fa-twitter-square{
+	margin-right: 20px;
+
+}
+
+.rights{
+	margin-top: 40px;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+.logo{
+	width: 140px;
+	height: 88px;
+	margin-left: -20px;
+}
+
+.navbar-toggle{
+	margin-top: 30px;
+}
+
+.navbar-brand{
+	height: 90px;
+	padding: 0 25px;
+}
+
+.navbar-header {
+    float: none;
+}
+
+#bs-example-navbar-collapse-1{
+    margin-top: 0px;
+	max-height: 450px !important;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+
+.navbar-collapse.collapse {
+    display: none!important;
+}
+
+.navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+}
+
+.navbar-nav>li {
+	margin-top: -15px;
+	padding-bottom: 10px;
+	margin-left: -30px;
+    float: none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.collapse.in{
+    display:block !important;
+}
+
+.col-centered{
+	float: none;
+	margin: 0px auto;
+	top: 10px;
+	border-bottom: 4px solid #ffffff;
+	width: 20%;
+}
+
+.why_elite{
+	margin-left: 0px;
+}
+
+.border_one{
+	margin-left: 0px;
+	width: 20%;
+}
+
+.list_one{
+	margin-left: -20px;
+	margin-bottom: -50px;
+}
+
+.list_two{
+	margin-left: -20px;
+	margin-bottom: 40px;
+}
+
+.magic_location{
+	margin-top: -20px;
+}
+
+.frame{
+	margin: 0px auto;
+}
+
+.frame_two{
+	margin: 0px auto;
+	margin-left: 100px;
+	padding-bottom: 20px;
+	border: 1px solid lightgray;
+	background-color: #fafafa;
+}
+
+.slider-container{
+	margin-top: 0px;
+	margin-bottom: 80px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+
+.navbar-toggle{
+	margin-top: 30px;
+}
+
+.logo{
+	width: 140px;
+	height: 88px;
+	margin-left: -20px;
+}
+
+.navbar-collapse{
+	margin-top: 0px;
+}
+
+#bs-example-navbar-collapse-1{
+	max-height: 450px !important;
+}
+
+.navbar-brand{
+	height: 90px;
+	padding: 0 25px;
+}
+
+.navbar-nav>li {
+	margin-left: 0px;
+
+}
+.navbar-nav li a{
+	height: 70px;
+	padding: 0 25px;
+	font-size: 1.3em;
+	font-family: Abel;
+}
+
+
+
+.active_icon{
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+
+.restaurant_icon{
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+	opacity: 0.5;
+}
+
+header{
+	height: 400px;
+	text-align: center;
+	background-image: url('pictures/hotel.jpg');
+	background-size: cover;
+}
+
+h2{
+	margin-top: 220px;
+	color: #ffffff;
+	font-family: Abel;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h3{
+	margin-top: 20px;
+	color: #ffffff;
+	font-family: Abel;
+	font-size: 1.2em;
+}
+
+.col-centered{
+	float: none;
+	margin: 0px auto;
+	top: 10px;
+	border-bottom: 4px solid #ffffff;
+}
+
+.col-md-2{
+	width: 50%;
+}
+
+.why_elite{
+	color: #333333;
+	font-weight: bold;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	font-size: 1.5em;
+}
+.border_one{
+	margin-left: 20px;
+	width: 20%;
+}
+
+.list_two{
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.list_one{
+	margin-bottom: -40px;
+	margin-left: 0px;
+}
+
+.list_two{
+	margin-left: 0px;
+}
+
+.first_paragraph{
+	margin-top: -2px;
+	margin-left: 18px;
+}
+
+.btn-margin{
+	margin-top: 4px;
+	margin-left: 18px;
+}
+
+.accomodations{
+	margin-top: 50px;
+}
+
+.restaurant{
+	margin-left: 18px;
+	margin-top: -20px;
+}
+
+.border_two{
+	display: block;
+    height: 1px;
+    width: 20%;
+    border: 0;
+    border-top: 4px solid #7d603d;
+    margin-top: -30px;
+    margin-left: 20px;
+
+}
+
+.center_it{
+	margin-top: 40px;
+}
+
+.magic_location{
+	color: white;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 1.4em;
+	margin-top: 20px;
+}
+
+.border_three{
+	display: block;
+    height: 1px;
+    width: 20%;
+    border: 0;
+    border-top: 4px solid #ffffff;
+    margin: 20px 0px 10px 0px;
+}
+
+.second_paragraph{
+	padding: 20px 0px 50px 0px;
+	color: #ffffff;
+}
+
+.btn-primary-explore{
+	width: 150px;
+	background-color: rgba(255,0,0, 0);
+	border: 2px solid #ffffff;
+	font-family: Abel;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: -30px;
+	transition: background 0.5s ease-in-out;
+	border-radius: 15px;
+}
+
+.btn-primary-explore:hover{
+	background-color: #ffffff;
+	color: #7d603d;
+	border: 2px solid #ffffff;
+	transition: background 0.5s ease-in-out;
+}
+
+.promotion_frame{
+	padding-top: 40px;
+}
+
+.promo_heading{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #333333;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.border_promo{
+	display: block;
+    height: 1px;
+    width: 20%;
+    border: 0;
+    border-top: 3px solid #7d603d;
+    margin: 0px 0px 34px 0px;
+}
+
+.frame{
+	width: 80%;
+	margin: 0px auto;
+	padding-bottom: 20px; 
+	border: 1px solid lightgray;
+	background-color: #fafafa;
+}
+
+.frame_two{
+	width: 80%;
+	margin: 0px auto;margin-top: 60px;
+	padding-bottom: 20px;
+	border: 1px solid lightgray;
+	background-color: #fafafa;
+}
+
+.airplane{
+	width: 100%;
+	height: 100%;
+}
+
+.value{
+	width: 100px;
+	height: 100px;
+	background-color: #7d603d;
+	border-radius: 55px;
+	border: 4px solid #ffffff;
+	float: right;
+	margin-top: -50px;
+	transition: all .2s ease-in-out; 
+}
+
+.value:hover { 
+	transform: scale(1.1); 
+}
+
+.pounds{
+	font-family: Abel;
+	font-size: 2.5em;
+	margin-left: 5px;
+}
+
+.only{
+	color: #ffffff;
+	font-family: Abel;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+
+.airport_heading{
+	color: #333333;
+	font-weight: bold;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding-left: -10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+}
